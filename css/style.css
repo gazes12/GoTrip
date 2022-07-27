@@ -558,6 +558,7 @@ body.noScroll {
             flex-direction: column;
     padding: 60px 0;
     z-index: 2000;
+    gap: 40px;
   }
   .nav--mobile .burger {
     position: fixed;
@@ -713,5 +714,13 @@ body.noScroll {
     border-radius: 27px;
     padding: 17px 19px 16px 20px;
     font-size: 16px;
+  }
+
+  /*header nav*/
+  .nav--mobile .nav__links {
+    gap: 50px;
+  }
+  .nav--mobile .nav__links a {
+    font-size: 30px;
   }
 }
